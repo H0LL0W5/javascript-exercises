@@ -1,4 +1,4 @@
-const repeatString = function() {
+const repeatString = function(string, num) {
  if (num < 0)
     {
         return "ERROR";
@@ -8,7 +8,7 @@ const repeatString = function() {
     {
         let word = "";
 
-        for (let i = 0; i < 3; i++)
+        for (let i = 0; i < num; i++)
         {
             word += string;
         }
